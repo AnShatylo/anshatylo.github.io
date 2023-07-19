@@ -1,0 +1,26 @@
+.members {
+    background-color: $secondary-color;
+    min-height: 870px;
+    padding: 0 0 180px 0;
+    max-width: 100%;
+    &__title {
+        margin-bottom: 110px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__card {
+        &:last-child {
+            padding-right: 0;
+        }
+        &_photo {
+            display: block;
+            margin: 0 auto;
+            width: 250px;
+            height: auto;
+            border-radius: 100%;
+            margin-bottom: 40px;
+        }
+    }
+}
