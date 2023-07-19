@@ -1,0 +1,41 @@
+.title {
+    margin: 0 auto;
+    span {
+        display: block;
+        background: $main-color;
+        width: 120px;
+        height: 2px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .line-left {
+        display: block;
+        background: $main-color;
+        width: 120px;
+        height: 2px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    &__title {
+        color: $main-color;
+        font-size: 56px;
+        font-family: Garamond;
+        font-weight: 400; 
+        text-align: center;
+        &-36 {
+            font-size: 36px;
+            color: $main-color;
+            font-family: Garamond;
+            font-weight: 400; 
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        &-left {
+            text-align: left;
+        }
+        &-fz38 {
+            font-size: 38px; 
+        }
+    }
+    
+}
