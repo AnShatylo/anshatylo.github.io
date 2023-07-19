@@ -424,7 +424,7 @@
             }
         }
         &__button {
-            left: 120px;
+            left: 170px;
         }
     }
     .lifting {
@@ -449,7 +449,7 @@
             }
         }
         &__button {
-            left: 120px;
+            left: 170px;
         }
     }
     .estetic {
@@ -474,7 +474,7 @@
             }
         }
         &__button {
-            left: 120px;
+            left: 170px;
         }
     }
     .manual {
@@ -499,7 +499,7 @@
             }
         }
         &__button {
-            left: 120px;
+            left: 170px;
         }
     }
     .modulation {
@@ -524,7 +524,7 @@
             }
         }
         &__button {
-            left: 120px;
+            left: 170px;
         }
     }
     
@@ -931,31 +931,31 @@
     .mask {
         &__button {
             position: relative;
-            left: 0;
+            left: 75px;
         }
     }
     .lifting {
         &__button {
             position: relative;
-            left: 0;
+            left: 75px;
         }
     }
     .estetic {
         &__button {
             position: relative;
-            left: 0;
+            left: 75px;
         }
     }
     .manual {
         &__button {
             position: relative;
-            left: 0;
+            left: 75px;
         }
     }
     .modulation {
         &__button {
             position: relative;
-            left: 0;
+            left: 75px;
         }
     }
     
@@ -981,6 +981,7 @@
         }
         &__item {
             margin-bottom: 0px;
+            margin: 0 auto;
             &_descr {
                 text-align: center;
             }
@@ -1087,6 +1088,9 @@
         &__item {
             padding: 20px;
             
+        }
+        &__button {
+            left: 75px;
         }
     }
     .lifting {
