@@ -1,0 +1,33 @@
+.promo {
+    min-height: 1280px;
+    background: url('../img/bg/banner_background.jpg') center (center/cover) no-repeat;
+    margin: 0 auto;
+    max-width: 100%;
+    &__services {
+        width: 100%;
+        display: flex; 
+        .wrapper {
+            padding: 150px 0 0 50px;
+            border: 1px solid $secondary-color;
+            width: 20%;
+            min-height: 1280px;
+            &:hover {
+                background-color: $secondary-color-transperent;
+                transition: ease 0.5s;
+            }
+        }
+        &-item {
+            a {
+                font-size: 30px;
+                font-weight: 400; 
+                color: $main-color;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                    transition: all 1s;
+                }
+            }
+        }
+    }
+    
+}
