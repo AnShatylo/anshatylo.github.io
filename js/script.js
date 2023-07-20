@@ -175,7 +175,7 @@ window.addEventListener("DOMContentLoaded", () => {
         resetFont.forEach((el, index) => {
             const computedStyle = getComputedStyle(el),
                   currentFont = computedStyle.fontFamily;
-            if (currentFont === '"Montserrat", sans-serif' || currentFont === 'Garamond' || currentFont === 'Montserrat, sans-serif' || currentFont === "'Montserrat', sans-serif") {
+            if (currentFont === 'Montserrat, sans-serif' || currentFont === 'Garamond') {
                 el.style.fontFamily = 'Arial';
             } else {
                 el.style.fontFamily = originalFont[index];
