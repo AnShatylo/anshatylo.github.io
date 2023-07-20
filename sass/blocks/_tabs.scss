@@ -1,0 +1,40 @@
+.tabs {
+    min-height: 400px;
+    padding: 0 0 60px 0;
+    background-color: $secondary-color;
+    &__nav {
+        display: flex;
+        &-btn {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #f5f5f5;
+            border: 0;
+            border-right: 1px solid #ddd;
+            cursor: pointer;
+            &:last-child {
+                border-right: none;
+            }
+            &:hover {
+                background-color: #ddd;
+            }
+            &.active {
+                background-color: $main-color;
+                border-right-color: $main-color;
+                color: #fff;
+            }
+        }
+    }
+    &__content {
+        padding: 30px;
+        background-color: #fff;
+    }
+    &__item {
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+    
+}
+
+

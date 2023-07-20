@@ -1,0 +1,35 @@
+
+@import 'base/variables';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'parts/button';
+@import 'parts/title';
+@import 'parts/text';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/proffessional';
+@import 'blocks/members';
+@import 'blocks/experience';
+@import 'blocks/mask';
+@import 'blocks/lifting';
+@import 'blocks/estetic';
+@import 'blocks/manual';
+@import 'blocks/modulation';
+@import 'blocks/contact';
+@import 'blocks/feedback';
+@import 'blocks/footer';
+@import 'blocks/tabs';
+@import 'blocks/wcag';
+@import 'blocks/faq';
+@import 'blocks/media';

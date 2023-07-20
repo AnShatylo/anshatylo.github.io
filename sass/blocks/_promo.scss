@@ -1,0 +1,35 @@
+.promo {
+    min-height: 1280px;
+    background: url('../img/bg/banner_background.jpg') center (center/cover) no-repeat;
+    margin: 0 auto;
+    &__services {
+        display: flex; 
+        justify-content: flex-start;
+        .wrapper {
+            padding: 150px 10px 0 50px;
+            border: 1px solid $secondary-color;
+            width: 20%;
+            min-height: 1280px;
+            &:hover {
+                background-color: $secondary-color-transperent;
+                transition: ease 0.5s;
+            }
+        }
+        &-item {
+            max-width: 100%;
+            a {
+                display: block;
+                font-size: 30px;
+                font-weight: 400; 
+                color: $main-color;
+                text-decoration: none;
+                word-wrap: break-word;
+                &:hover {
+                    text-decoration: underline;
+                    transition: all 1s;
+                }
+            }
+        }
+    }
+    
+}

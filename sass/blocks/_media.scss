@@ -1,0 +1,1123 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+    .title {
+        margin: 0 auto;
+        &__title {
+            font-size: 50px;
+            &-36 {
+                font-size: 32px;
+            }
+            &-fz38 {
+                font-size: 34px; 
+            }
+        }
+    }
+    .descr24 {
+        font-size: 19px;
+        line-height: 30px; 
+    }
+    .descr20 {
+        font-size: 18px;
+    }
+    .promo {
+        min-height: 900px; 
+        &__services {
+            .wrapper {
+                padding: 90px 0 0 30px;
+                min-height: 900px;
+            }
+            &-item {
+                a {
+                    font-size: 26px; 
+                 }
+            }
+        }
+    }
+    .proffessional {
+        padding: 100px 0 140px 0;
+        min-height: 750px;
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            img {
+                width: 230px;
+                height: auto;
+                padding-right: 0;
+            }
+        }
+    }
+    .members {
+        min-height: 800px;
+        padding: 0 0 140px 0;
+        &__title {
+            margin-bottom: 70px;
+        }
+        &__card {
+            &_photo {
+                width: 200px;
+                height: auto;
+            }
+        }
+    }
+    .experience {
+        min-height: 600px;
+        padding: 0 0 180px 0;
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__image {
+            width: 55%;
+            img {
+                width: 550px;
+                height: auto;
+            }
+            &_block {
+                width: 180px;
+                height: 160px;
+                top: 280px;
+            }
+            &_descr {
+                font-size: 22px;
+                padding: 30px 38px 30px 38px;
+                span {
+                    font-size: 64px;
+                }
+            }
+        }
+        &__description {
+            width: 40%;
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+    .mask {
+        min-height: 1100px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 600px;
+            min-height: 1000px; 
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__descr {
+            line-height: 32px; 
+            margin-bottom: 10px;
+        }
+        &__list {
+            margin-left: 30px;
+            &-item {
+                font-size: 20px; 
+                line-height: 34px; 
+            }
+        }
+    }
+    .lifting {
+        min-height: 1100px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 600px;
+            min-height: 1000px; 
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__descr {
+            line-height: 32px; 
+            margin-bottom: 10px;
+        }
+        &__list {
+            margin-left: 30px;
+            &-item {
+                font-size: 20px; 
+                line-height: 34px; 
+            }
+        }
+    }
+    .estetic {
+        min-height: 1100px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 600px;
+            min-height: 1000px; 
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__descr {
+            line-height: 32px; 
+            margin-bottom: 10px;
+        }
+        &__list {
+            margin-left: 30px;
+            &-item {
+                font-size: 20px; 
+                line-height: 34px; 
+            }
+        }
+    }
+    .manual {
+        min-height: 1100px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 600px;
+            min-height: 1000px; 
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__descr {
+            line-height: 32px; 
+            margin-bottom: 10px;
+        }
+        &__list {
+            margin-left: 30px;
+            &-item {
+                font-size: 20px; 
+                line-height: 34px; 
+            }
+        }
+    }
+    .modulation {
+        min-height: 1100px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 600px;
+            min-height: 1000px; 
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__descr {
+            line-height: 32px; 
+            margin-bottom: 10px;
+        }
+        &__list {
+            margin-left: 30px;
+            &-item {
+                font-size: 20px; 
+                line-height: 34px; 
+            }
+        }
+    }
+
+    .faq {
+        &__title {
+            margin-bottom: 40px;
+        }
+        .accordion {
+            &__title {
+                font-size: 22px;
+            }
+        }
+    }
+
+
+    .contact {
+        min-height: 610px;
+        padding: 120px 0 140px 0;
+        &__title {
+            margin-bottom: 40px;
+        }
+    }
+    .feedback {
+        min-height: 770px;
+        padding: 120px 0 140px 0;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__form {
+            max-width: 100%;
+            
+            &_row1 {
+                input {
+                    width: 490px;
+                }
+            }
+            &_row3 {
+                textarea {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .footer {
+        min-height: 300px;
+        &__item {
+            &_descr {
+                margin-bottom: 15px;
+            }
+        }
+        &__newsletter {
+            margin-bottom: 40px;
+            &_descr {
+                text-align: left;
+                margin-bottom: 20px;
+            }
+            &_form {
+                input {
+                    height: 50px;
+                }
+            }
+            &_btn {
+                height: 50px;
+                font-size: 18px;
+            }
+        }
+    }
+    .copyright {
+        &__title {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 800px;
+        padding: 0 10px;
+    }
+    .wcag {
+        button {
+            width: 150px;
+            font-size: 12px;
+            cursor: pointer;
+            &:hover {
+                background-color: $main-color;
+                color: $secondary-color;
+            }
+        }
+    }
+    .title {
+        &__title {
+            font-size: 40px;
+            &-36 {
+                font-size: 28px;
+            }
+            &-fz38 {
+                font-size: 30px; 
+            }
+        }
+    }
+    .descr24 {
+        font-size: 18px;
+        line-height: 28px; 
+    }
+    .descr20 {
+        font-size: 16px;
+    }
+    .promo {
+        min-height: 700px; 
+        &__services {
+            .wrapper {
+                padding: 60px 0 0 20px;
+                min-height: 700px;
+            }
+            &-item {
+                a {
+                   font-size: 20px; 
+                }
+                
+            }
+        }
+    }
+    .proffessional {
+        padding: 100px 0 120px 0;
+        min-height: 700px;
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__wrapper {
+            img {
+                width: 200px;
+                height: auto;
+                padding-right: 0;
+            }
+        }
+    }
+    .members {
+        min-height: 700px;
+        padding: 0 0 120px 0;
+        &__title {
+            margin-bottom: 50px;
+        }
+        &__card {
+            &_photo {
+                width: 200px;
+                height: auto;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .experience {
+        min-height: 500px;
+        padding: 0 0 160px 0;
+        &__image {
+            width: 45%;
+            img {
+                width: 440px;
+            }
+            &_block {
+                width: 160px;
+                height: 140px;
+                top: 230px;
+            }
+            &_descr {
+                font-size: 18px;
+                padding: 23px 38px;
+                span {
+                    font-size: 60px;
+                }
+            }
+        }
+        &__description {
+            width: 40%;
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+    .mask {
+        min-height: 950px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 600px;
+            min-height: 950px; 
+        }
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__descr {
+            line-height: 30px; 
+            margin-bottom: 10px;
+        }
+        &__list {
+            margin-left: 20px;
+            &-item {
+                font-size: 18px; 
+                line-height: 32px; 
+            }
+        }
+    }
+    .lifting {
+        min-height: 950px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 600px;
+            min-height: 950px; 
+        }
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__descr {
+            line-height: 30px; 
+            margin-bottom: 10px;
+        }
+        &__list {
+            margin-left: 20px;
+            &-item {
+                font-size: 18px; 
+                line-height: 32px; 
+            }
+        }
+    }
+    .estetic {
+        min-height: 950px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 600px;
+            min-height: 950px; 
+        }
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__descr {
+            line-height: 30px; 
+            margin-bottom: 10px;
+        }
+        &__list {
+            margin-left: 20px;
+            &-item {
+                font-size: 18px; 
+                line-height: 32px; 
+            }
+        }
+    }
+    .manual {
+        min-height: 950px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 600px;
+            min-height: 950px; 
+        }
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__descr {
+            line-height: 30px; 
+            margin-bottom: 10px;
+        }
+        &__list {
+            margin-left: 20px;
+            &-item {
+                font-size: 18px; 
+                line-height: 32px; 
+            }
+        }
+    }
+    .modulation {
+        min-height: 950px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 600px;
+            min-height: 950px; 
+        }
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__descr {
+            line-height: 30px; 
+            margin-bottom: 10px;
+        }
+        &__list {
+            margin-left: 20px;
+            &-item {
+                font-size: 18px; 
+                line-height: 32px; 
+            }
+        }
+    }
+    
+    .feedback {
+        min-height: 770px;
+        padding: 100px 0 140px 0;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__form {
+            max-width: 100%;
+            
+            &_row1 {
+                input {
+                    width: 390px;
+                }
+            }
+            &_row3 {
+                textarea {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 700px;
+        padding: 0 10px;
+    }
+    .wcag {
+        flex-wrap: wrap;
+        button {
+            width: 130px;
+            font-size: 14px;
+        }
+    }
+    .header {
+        background-color: $secondary-color;
+        &__menu {
+            &-item {
+                a {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .title {
+        &__title {
+            font-size: 38px;
+            &-36 {
+                font-size: 26px;
+                margin-bottom: 10px;
+            }
+            &-fz38 {
+                font-size: 28px; 
+            }
+        }
+    }
+    .descr24 {
+        font-size: 16px;
+        line-height: 26px; 
+    }
+    .descr20 {
+        font-size: 15px;
+    }
+    .promo {
+        min-height: 400px; 
+        &__services {
+            .wrapper {
+                padding: 40px 0 0 20px;
+                min-height: 400px;
+            }
+            &-item {
+                a {
+                    font-size: 18px;
+                 }
+            }
+        }
+    }
+    .proffessional {
+        padding: 100px 0 120px 0;
+        min-height: 600px;
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__wrapper {
+            img {
+                width: 150px;
+                height: auto;
+                padding-right: 0;
+            }
+        }
+    }
+    .members {
+        min-height: 550px;
+        padding: 0 0 100px 0;
+        &__title {
+            margin-bottom: 50px;
+        }
+        &__card {
+            &_photo {
+                width: 150px;
+                height: auto;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .tabs {
+        &__nav {
+            &-btn {
+                padding: 10px 25px;
+                font-size: 18px;
+                }
+        }
+        &__content {
+            padding: 20px;
+        }
+        
+    }
+
+
+    .experience {
+        min-height: 500px;
+        padding: 0 0 160px 0;
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__image {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+            &_block {
+                width: 160px;
+                height: 140px;
+                top: 0;
+                left: 0;
+
+            }
+            &_descr {
+                font-size: 18px;
+                padding: 23px 38px;
+                span {
+                    font-size: 60px;
+                }
+            }
+        }
+        &__description {
+            margin-top: 50px;
+            width: 100%;
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+    .mask {
+        min-height: 700px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 100%; 
+            min-height: 700px;
+        }
+        &__list {
+            &-item {
+                font-size: 16px; 
+            }
+        }
+    }
+    .lifting {
+        min-height: 700px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 100%; 
+            min-height: 700px;
+        }
+        &__list {
+            &-item {
+                font-size: 16px; 
+            }
+        }
+    }
+    .estetic {
+        min-height: 700px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 100%; 
+            min-height: 700px;
+        }
+        &__list {
+            &-item {
+                font-size: 16px; 
+            }
+        }
+    }
+    .manual {
+        min-height: 700px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 100%; 
+            min-height: 700px;
+        }
+        &__list {
+            &-item {
+                font-size: 16px; 
+            }
+        }
+    }
+    .modulation {
+        min-height: 700px;
+        padding: 90px 0 80px 0;
+        &__item {
+            width: 100%; 
+            min-height: 700px;
+        }
+        &__list {
+            &-item {
+                font-size: 16px; 
+            }
+        }
+    }
+    .faq {
+        .accordion {
+            &__title {
+                font-size: 18px;
+            }
+        }
+    }
+    .contact {
+        min-height: 610px;
+        padding: 100px 0 140px 0;
+    }
+    .feedback {
+        min-height: 770px;
+        padding: 100px 0 120px 0;
+        &__form {
+            max-width: 100%;
+            
+            &_row1 {
+                flex-wrap: wrap;
+                input {
+                    width: 100%;
+                    margin-bottom: 30px;
+                    &:nth-child(2) {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            &_row3 {
+                textarea {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 565px) {
+    .container {
+        max-width: 500px;
+        padding: 0 10px;
+    }
+    .header {
+        background-color: $secondary-color;
+        &__menu {
+            &-item {
+                a {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .title {
+        &__title {
+            font-size: 38px;
+            &-36 {
+                font-size: 26px;
+                margin-bottom: 10px;
+            }
+            &-fz38 {
+                font-size: 28px; 
+            }
+        }
+    }
+    .descr24 {
+        font-size: 16px;
+        line-height: 26px; 
+    }
+    .descr20 {
+        font-size: 15px;
+    }
+    .promo {
+        min-height: 400px; 
+        &__services {
+            flex-wrap: wrap;
+            .wrapper {
+                padding: 20px;
+                min-height: 100%;
+                width: 100%;
+            }
+            &-item {
+                text-align: center;
+                a {
+                    font-size: 20px;
+                    font-weight: 500; 
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .proffessional {
+        padding: 100px 0 140px 0;
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            &_mb40 {
+                margin-bottom: 20px;
+            }
+            img {
+                width: 200px;
+            }
+        }
+    }
+    .members {
+        min-height: 650px;
+        padding: 0 0 140px 0;
+        &__title {
+            margin-bottom: 50px;
+        }
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__card {
+            width: 50%;
+            &:nth-child(3) {
+                margin-top: 40px;
+            }
+            &_photo {
+                width: 180px;
+            }
+        }
+    }
+
+    .tabs {
+        &__nav {
+            &-btn {
+                padding: 10px 20px;
+                font-size: 16px;
+                }
+        }
+    }
+
+
+    .experience {
+        &__image {
+            &_block {
+                width: 120px;
+                height: 120px;
+            }
+            &_descr {
+                font-size: 14px;
+                padding: 26px 28px;
+                span {
+                    font-size: 40px;
+                }
+            }
+        }
+        &__description {
+            margin-top: 50px;
+            width: 100%;
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+    
+    .contact {
+        min-height: 600px;
+        padding: 100px 0 120px 0;
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__info {
+            width: 50%;
+            margin-bottom: 20px;
+        } 
+    }
+    .footer {
+        min-height: 300px;
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__line {
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        &__item {
+            margin-bottom: 0px;
+            margin: 0 auto;
+            &_descr {
+                text-align: center;
+            }
+        }
+        &__newsletter {
+            margin-bottom: 50px;
+            &_descr {
+                text-align: center;
+            }
+        }
+        &__socialmedia {
+            display: flex;
+            justify-content: space-between;
+            &_img {
+                padding-right: 0;
+            }
+        }
+        
+    }
+    .copyright {
+        &__title {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 290px;
+    }
+    .title {
+        &__title {
+            font-size: 34px;
+            &-36 {
+                font-size: 26px;
+                margin-bottom: 10px;
+            }
+            &-fz38 {
+                font-size: 28px; 
+            }
+        }
+    }
+    .descr24 {
+        font-size: 15px;
+        line-height: 26px; 
+    }
+    .descr20 {
+        font-size: 14px;
+    }
+    .proffessional {
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__wrapper {
+            img {
+                width: 50%;
+            }
+        }
+    }
+    .members {
+        &__title {
+            margin-bottom: 50px;
+        }
+        &__card {
+            width: 100%;
+            margin-bottom: 30px;
+            &_photo {
+                width: 180px;
+            }
+        }
+    }
+    .experience {
+        padding: 0 0 100px 0;
+        &__image {
+            padding-right: 0;
+            img {
+                border-radius: 5px;
+            }
+            &_block {
+                width: 100px;
+                height: 100px;
+            }
+            &_descr {
+                font-size: 14px;
+                padding: 20px 0;
+                margin: 0 auto;
+                width: fit-content;
+                span {
+                    font-size: 30px;
+                }
+            }
+        }
+        &__description {
+            margin-top: 50px;
+            width: 100%;
+        }
+        &__title {
+            margin-bottom: 20px;
+        }
+    }
+    .mask {
+        &__item {
+            padding: 20px;
+            
+        }
+        &__button {
+            left: 75px;
+        }
+    }
+    .lifting {
+        &__item {
+            padding: 20px;
+            
+        }
+    }
+    .estetic {
+        &__item {
+            padding: 20px;
+            
+        }
+    }
+    .manual {
+        &__item {
+            padding: 20px;
+            
+        }
+    }
+    .modulation {
+        &__item {
+            padding: 20px;
+            
+        }
+    }
+    
+    .contact {
+        min-height: 600px;
+        padding: 100px 0 100px 0;
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__line {
+            width: 100%;
+            margin: 20px auto 10px;
+        }
+        &__info {
+            width: 100%;
+            margin-bottom: 10px;
+            &_descr {
+                text-align: center;
+            }
+        } 
+    }
+    .feedback {
+        &__form {
+            &_button {
+                float: left;
+            } 
+        }
+    }
+    .footer {
+        min-height: 300px;
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__line {
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: 100%;
+            order: 1;
+        }
+        &__flex {
+            display: block;
+        }
+        &__item {
+            margin-bottom: 0px;
+            width: 100%;
+            &_descr {
+                text-align: center;
+                width: 100%;
+                &:nth-child(3) {
+                margin-bottom: 10px;
+                }
+            }
+        }
+        &__newsletter {
+            margin-bottom: 50px;
+            &_descr {
+                text-align: center;
+            }
+            &_form {
+                flex-wrap: wrap;
+                input {
+                    width: 100%;
+                }
+            }
+            &_btn {
+                margin-top: 10px;
+                width: 100%;
+                position: relative;
+            }
+        }
+        &__socialmedia {
+            flex-wrap: wrap;
+            &_img {
+                padding-right: 0;
+
+            }
+        }
+        
+    }
+    .copyright {
+        &__title {
+            font-size: 16px;
+        }
+    }
+    .button {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 40px; 
+    }
+}
